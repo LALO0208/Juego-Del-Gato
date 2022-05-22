@@ -1,0 +1,11 @@
+.titulo{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: 800;
+    color: transparent;
+    background-image: url("https://media.giphy.com/media/cmegx6SssTKmEFEcwj/giphy-downsized-large.gif");
+    background-position: center;
+    -webkit-background-clip: text;
+}

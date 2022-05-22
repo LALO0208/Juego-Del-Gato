@@ -1,0 +1,29 @@
+.header{
+    background: aqua;
+}
+.nav-nav-pills{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(10, 241, 68);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid rgb(64, 243, 88);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s ease all;
+    
+}
+.nav-nav-pills:hover{
+    background: #9cdcf0;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+.nav-item{
+    text-align: center;
+}
+.texto-final{
+    text-align: center;
+}

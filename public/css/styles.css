@@ -1,0 +1,82 @@
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #007111;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.contenedor {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "sidebar blog  sidebarderecho"
+    "footer  footer footer";
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 40px 1fr 300px;
+  gap: 10px;
+
+}
+
+.sidebar {
+  background-color: #b7fadf;
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebar;
+  text-align: justify;
+  padding: 10px;
+  width: 110px;
+}
+  
+
+.blog {
+  grid-area: blog;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        height: 100%;
+        display: grid;
+        grid-template-areas:
+          "titulo"
+          "sidebar"
+          "blog";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
+        gap: 10px;
+      }
+}
+
+#pantalla{
+  border: groove 10px brown;
+  background: #7ff9c7;
+}
+
+#boton{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 3px;
+  border: solid 2px black;
+}
+
+#boton:hover{
+  background-color: lightcoral;
+  font-size: 22px;
+}
