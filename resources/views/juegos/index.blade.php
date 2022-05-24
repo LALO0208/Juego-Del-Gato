@@ -331,8 +331,8 @@
 
       </div>
       <div class="sidebar">
-  <th>Jugador</th>
-<div>{{ Auth::user()->name }}</div>
+        <th>Jugador</th>
+        <div>{{ Auth::user()->name }}</div>
       </div>
     </div>
   </body>
