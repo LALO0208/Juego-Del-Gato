@@ -9,4 +9,5 @@ class Juego extends Model
 {
     use HasFactory; 
     protected $fillable = ['jugador'];
+    
 }

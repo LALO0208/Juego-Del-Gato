@@ -8,7 +8,7 @@
     <title>Proyecto</title>
   </head>
   <body>
-  <h1>"Juego del Gato"</h1>
+  <h1>JUEGO DEL GATO</h1>
     <div class="contenedor">    
       <div class="blog">
       <script>
@@ -331,28 +331,9 @@
 
       </div>
       <div class="sidebar">
-      <table>
-    <thead>
-        <tr>
-            <th hidden>ID</th>
-            <th>Jugador:</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach($juegos as $juego)
-        <tr>
-            <td hidden>{{$juego->id}}</td>
-            <td>{{$juego->jugador}}</td>
-            <td>
-                <a class="btn btn-info" href="{{route('juegos.edit', $juego->id)}}">Editar</a>
-              <form action="{{route('juegos.destroy', $juego->id)}}" method="POST" style="display:inline">
-            </td>
-        </tr>
-        @endforeach
-    </tbody>
-</table>
+  <th>Jugador</th>
+<div>{{ Auth::user()->name }}</div>
       </div>
-     
     </div>
   </body>
 </html>
