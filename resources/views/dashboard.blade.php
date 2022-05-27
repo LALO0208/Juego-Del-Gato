@@ -19,17 +19,13 @@
                 <div class="p-6 bg-white border-b border-gray-50">
                    <p>ANIMATE A JUGAR CONTRA LA MAQUINA</p> 
                    <p>INSTRUCCIONES:</p>
-                   <p>1.Registra tu nombre pulsando el boton "REGISTRAR"</p>
-                   <p>2.Una vez registrado, pulse el boton "JUGAR"</p>
-                   <p>3.Disfrute el juego</p>
+                   <p>1.Pulse el boton "JUGAR"</p>
+                   <p>2.Disfrute el juego</p>
                 </div>
                 <div class="button">
-                 <ul class="nav-nav-pills">
-                  <li class="nav-item"><a class="nav-link" href="{{route('juegos.create')}}">Registrarse</a></li>
-                 </ul><br> 
-                 <ul class="nav-nav-pills">
-                 <li class="nav-item"><a class="nav-link" href="{{route('juegos.index')}}">Jugar</a></li>
-                 </ul>
+                    <ul class="nav-nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="/juego">Jugar</a></li>
+                    </ul>
 
                 </div>
                 <div class="texto-final">
